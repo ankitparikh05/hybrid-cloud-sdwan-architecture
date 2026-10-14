@@ -24,6 +24,7 @@ To architect and deploy an enterprise-grade hybrid cloud network bridging simula
 5. **SD-WAN Integration:** Provisioned a simulated third-party SD-WAN appliance (Linux/Openswan). Configured a Transit Gateway Connect attachment, establishing GRE tunnels and BGP peering for dynamic, high-bandwidth route exchange.
 6. **Centralized Hybrid DNS Resolution:** Deployed Amazon Route 53 Resolver Outbound endpoints. Configured conditional forwarding rules to achieve seamless domain name resolution from AWS VPC to on-premises branch environments.
 7. **Multicast Domain:** Configured a Transit Gateway Multicast domain, registering source and member instances, and validating IGMP traffic flow across cloud subnets.
+8. **Operations Runbook:** Check out the [Day 2 Operations & Incident Response Guide](DAY2_OPERATIONS.md) for network health monitoring, scaling instructions, and troubleshooting runbooks.
 
 ## Proof of Validation
 *Below are screenshots confirming the successful configuration and active routing of the hybrid network:*
